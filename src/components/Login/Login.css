@@ -1,0 +1,10 @@
+.font-weight-bold {
+  font-weight: bold;
+}
+.loginform {
+  border-radius: 30px !important;
+  padding: 60px 40px;
+}
+/* * {
+  margin: 0;
+} */

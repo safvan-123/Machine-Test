@@ -1,0 +1,42 @@
+.nav-content {
+  font-size: 22px;
+  color: black;
+}
+.brand {
+  font-size: 33px;
+}
+.nav-content:hover {
+  text-decoration: none !important;
+  color: blue !important;
+}
+@media only screen and (max-width: 900px) {
+  .brand12 {
+    margin-left: -300px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .brand12 {
+    margin-left: -200px;
+    font-size: 29px !important;
+  }
+  .registerform {
+    margin: 30px;
+  }
+  .loginform {
+    margin: 30px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .brand12 {
+    font-size: 24px !important;
+    display: none;
+  }
+}
+.togglebtn {
+  /* background-color: black !important;
+  /* color: black !important; */
+  border-radius: 12px !important;
+  background-image: url("https://i0.wp.com/css-tricks.com/wp-content/uploads/2012/10/threelines.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100% !important;
+}
